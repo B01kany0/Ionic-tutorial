@@ -1,0 +1,12 @@
+.grid{
+    display: grid;
+    grid-template-columns: 1fr;
+    
+}
+.grid > div{
+    background: red;
+    
+}
+.grid > div:nth-child(odd){
+    background: orange;
+}

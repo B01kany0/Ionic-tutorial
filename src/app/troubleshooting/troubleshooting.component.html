@@ -1,0 +1,12 @@
+<div class="grid">
+<h1>Troubleshooting</h1>
+
+<p>If you have troubles with Ionic CLI then can:</p>
+<br>
+<li>Make sure you’re on the latest version of the CLI. Update with <b>npm update -g ionic</b>.</li>
+<li>Try running commands with the <b>--verbose flag</b>, which will print DEBUG messages.</li>
+
+<h3>No component factory found for</h3>
+<p>This error happens when you are trying to use a component, provider pipe or directive<br> that has not been imported and added to your ngModule. Whenever you add a new component,<br> provider, pipe or directive to your app, you must add it to the ngModule<br> in the src/app/app.module.ts file for Angular to be able to use it. To fix this error you can import<br> the offending component, provider, pipe or directive into the app.module<br> file and then if it is a provider add it to the providers array and for a component,<br>
+     pipe or directive add it to both the declarations array and entryComponents array.</p>
+    </div>
